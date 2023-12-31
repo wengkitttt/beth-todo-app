@@ -1,10 +1,10 @@
 const TodoItemContainer = ({ id, name, isCheck }: any) => (
   <div
-    class="relative group rounded-lg shadow-md overflow-hidden bg-[#F9F7F7]"
+    class="relative group rounded-lg shadow-md overflow-hidden bg-[#F9F7F7] w-[400px]"
     id={id}
   >
     <div class="p-4 flex flex-row justify-between">
-      <p>{name}</p>
+      <p class={isCheck && "line-through"}>{name}</p>
       <input type="checkbox" checked={isCheck} />
     </div>
   </div>
