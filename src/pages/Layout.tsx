@@ -15,7 +15,12 @@ const Layout = (props: { children: any }) => {
         ></script>
         <script src="https://unpkg.com/hyperscript.org@0.9.12"></script>
         <script src="https://cdn.tailwindcss.com"></script>
-        <title>Beth Todo App</title>
+        <link
+          rel="icon"
+          href="https://i.ibb.co/Byk375F/favicon-32x32.png"
+          type="image/x-icon"
+        />
+        <title>BETH Todo App</title>
       </head>
 
       <body class="bg-[#3F72AF] flex w-full h-screen justify-center items-center">
